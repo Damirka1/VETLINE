@@ -1,0 +1,45 @@
+﻿.block {
+
+}
+
+.background {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.img1 {
+    background-image: url('main.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.img2 {
+    background-image: url('main2.png');
+    background-repeat: no-repeat;
+}
+.img3 {
+    background-image: url('main3.png');
+    background-repeat: no-repeat;
+}
+
+.block-left {
+    position: relative;
+    display: inline-flex;
+    left: 5%;
+    top: 10%;
+    width: 50%;
+
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.send-offer {
+    padding: 0.5vw;
+    font-size: 1vw;
+    margin-top: 1vh;
+}
