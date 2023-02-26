@@ -26,6 +26,8 @@ namespace VETLINE
                 app.UseHsts();
             }
 
+            app.UsePathBase("/test");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
