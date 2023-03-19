@@ -2,102 +2,106 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container-fluid background">
-    <div class="container-fluid mb-5">
-        <h5 class="display-6">Наши услуги</h5>
-    </div>
+<div class="container-fluid blue-block pb-5">
+    <div class="container">
+        <h6 class="text-center display-4 pt-4">
+            Наши услуги
+        </h6>
 
-    <div class="container split">
-        <div class="container">
+        <div class="mt-5">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Осмотр и консультация
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Первичный прием и клинический осмотр
+                                    <span class="badge bg-primary pill">2000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Повторный прием и клиничесий осмотр
+                                    <span class="badge bg-primary pill">1000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Консультация без животного
+                                    <span class="badge bg-primary pill">1000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Выезд врача (без стоимости проезда)
+                                    <span class="badge bg-primary pill">2000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Выезд врача на дом (в рабочее время)
+                                    <span class="badge bg-primary pill">3000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Выезд ассистента на дом
+                                    <span class="badge bg-primary pill">2000 тенге</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Предоперационная консультация
+                                    <span class="badge bg-primary pill">1000 тенге</span>
+                                </li>
+                            </ul>
 
-            <div class="card border-dark mb-3">
-                <div class="card-header">
-                    <h6 class="font-weight-light">
-                        ПРЕИМУЩЕСТВА ВЫЗОВА ВЕТЕРИНАРА НА ДОМ
-                    </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Терапия. Манипуляции
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Инъекция
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Косметические операции
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
 
-                <div class="card-body">
-                    <p class="card-title font-weight-light">
-                        Вызывная ветслужба - 
-                    это отличная альтернатива обращения с питомцем в клинику.<br />
-                    Приезд ветеринара на дом имеет следующие преимущества:
-                    </p>
-
-                    <ul class="list-group list-group-flush card-text font-weight-light">
-                        <li class="list-group-item">
-                            Экономия времени на транспортировку питомца
-                            в клинику и обратно, ожидание своей очереди. Даже предвартельная
-                            запись к врачу не дает гарантии, что питомца примут в точно назначенное время.
-                        </li>
-                        <li class="list-group-item">
-                            Экономия средств на перевозку животного.
-                            Особенно это актуально для тех, кто не имеет собственного транспорта
-                            и вынужден пользоваться услугами такси.
-                        </li>
-                        <li class="list-group-item">
-                            Возможности получить помощь круглосуточно.
-                            Ветеринар приедет на дом в удобное для вас время, даже ночью или
-                            в праздничные дни.
-                        </li>
-                        <li class="list-group-item">
-                            Минимум стресса для домашнего любимца. Если
-                            животное плохо себя чувствует, смена обстановки не пойдёт ему на пользу. Осмотр
-                            и проведение процедур будет проводиться в привычных условиях, что позволит
-                            спокойнее перенести лечение.
-                        </li>
-                        <li class="list-group-item">
-                            Минимум риск заражения инфекциями,
-                            поскольку животное не контактирует с другими в приемной ветклиники. Особенно это
-                            важно во время плановой вакцинации, а также для питомцев со слабым иммунитетом.
-                        </li>
-                    </ul>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Хирургия
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-        </div>
-
-        <div class="container">
-
-            <div class="card border-dark mb-3">
-                <div class="card-header">
-                    <h6 class="font-weight-light">
-                        УСЛУГИ ПРОВОДИМЫЕ НА ДОМУ
-                    </h6>
-                </div>
-
-                <div class="card-body">
-                    <p class="card-title font-weight-light">
-                        На дом ветеринары оказывают все те же услуги, что и в клинике.
-                    Исключениями являются только оперции и исследованя, требующие 
-                    стационарного оборудования.</p>
-
-                    <ul class="list-group list-group-flush card-text font-weight-light">
-                        <li class="list-group-item">
-                            Экстренная помощь. Бригады скорой ветеринарной помощи и их трнспорт
-                            оборудованы всем необходимым для оказания срочной помощи и реанимации.
-                        </li>
-                        <li class="list-group-item">
-                            Диагностика и анализы. Современное портативное оборудование сделало возможным
-                            проводить дома многие виды аппаратной диагностики - УЗИ, ЭКГ, рентген.
-                            Мы сотрудничаем с лучшими лабораториями. Ветврач произведет забор
-                            материалов, а результаты вы получите по электронной почте
-                        </li>
-                        <li class="list-group-item">
-                            Терапевтическое лечение. Большинство проблем с животными могут быть решены с помощью
-                            медикаментов и процедур в домашних условиях. Так питомцы чувстуют себя в безопасности и
-                            не испытывают стресса. Если потребуется, на дом может выехать и узкий специалист:
-                            офтальмолог, дерматолог, кардиолог и т.д.
-                        </li>
-                        <li class="list-group-item">
-                            Хирургия. В домашних условиях, конечно, нет возможности проводить большинствво
-                            операций, но наши доктора окажут вашему питомцу первую помощь при травмах; при необходимости
-                            подготовят егок транспортировке и доставят в стационар.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
         </div>
     </div>
 </div>

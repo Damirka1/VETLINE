@@ -15,13 +15,22 @@
     background-repeat: no-repeat;
     background-position-x: right;
 }
-.img2 {
-    background-image: url('main2.png');
-    background-repeat: no-repeat;
+
+.blue-block {
+    background-color: #87ceeb;
 }
-.img3 {
-    background-image: url('main3.png');
-    background-repeat: no-repeat;
+
+.bg-gray {
+    background-color: #e9ecef;
+}
+
+.card-image {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: -50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
 }
 
 .block-left {

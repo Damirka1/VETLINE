@@ -1,0 +1,8 @@
+﻿.card-image {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: -50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
